@@ -1,4 +1,4 @@
-package OA ;
+
 import java.util.* ;
 //problem 1
 class Kaabil {
@@ -69,6 +69,9 @@ class Kaabil {
 // then we will just search for the coordinates of set b with n elements in set a with m elements 
 
 //Any other special situations that you can think of in which you could make it work?
-// 
+// When dealing with floating-point coordinates, comparing distances with an epsilon value 
+// directly might not give accurate results due to floating-point precision issues. In such cases, 
+// you might need to use a approximate value instead of epsilon for comparison.
+// as epsilon is too accurate for comparison thus an approx value when using float will help 
 
 
